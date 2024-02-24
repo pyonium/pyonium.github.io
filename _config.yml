@@ -4,7 +4,7 @@ title: juniper
 description: dog on the internet
 
 baseurl: / #name of GitHub repository
-url: "" #custom url to be used instead of GitHub repository
+url: "https://pyonium.github.io/" #custom url to be used instead of GitHub repository
 email: #
 
 # Pagination
