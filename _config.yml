@@ -4,8 +4,8 @@ title: juniper
 description: dog on the internet
 
 baseurl: / #name of GitHub repository
-url: "https://pyonium.github.io/" #custom url to be used instead of GitHub repository
-email: #
+url: "https://ju.niper.me/" #custom url to be used instead of GitHub repository
+email: transrights@ju.niper.me
 
 # Pagination
 paginate: 4
@@ -14,6 +14,7 @@ paginate_path: /blog/page:num/
 
 # Social media links in footer
 twitter: "#"
+stackoverflow: "#"
 linkedin: "#"
 github: "#"
 researchgate: "#"
