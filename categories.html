@@ -13,7 +13,7 @@ title: Categories
 
     <h3><small>{{ category_name }}</small></h3>
     {% for post in site.categories[category_name] %}
-      <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a> ({{ post.date | date: '%B %Y' }})<br>
+      {{ post.date | date: "%m-%d-%Y"}} <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a><br>
     {% endfor %}
   </div>
 {% endfor %}
