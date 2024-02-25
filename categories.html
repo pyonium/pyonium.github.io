@@ -9,12 +9,11 @@ title: Categories
 {% for category in site.categories %}
   <div class="article-list">
     {% capture category_name %}{{ category | first }}{% endcapture %}
-    <div id="#{{ category_name | slugize }}"></div>
     <p></p>
 
-    <h3>{{ category_name }}</h3>
+    <h3><small>{{ category_name }}</small></h3>
     {% for post in site.categories[category_name] %}
-      <a style="line-height: 1.3;" href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a><br>
+      <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a><br>
     {% endfor %}
   </div>
 {% endfor %}
