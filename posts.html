@@ -13,7 +13,7 @@ title: Posts
 
     <h3><small>{{ category_name }}</small></h3>
     {% for post in site.categories[category_name] %}
-      <div style="line-height: 1; margin: 20px 0;">
+      <div style="line-height: 1; margin: 10px 0;">
         <small>{{ post.date | date: "%Y-%m-%d"}}&nbsp;</small> <br> 
         <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
       </div>
