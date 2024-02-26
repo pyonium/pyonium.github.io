@@ -14,7 +14,7 @@ title: Posts
     <h3><small>{{ category_name }}</small></h3>
     <table>
       {% for post in site.categories[category_name] %}
-        <tr><td style="font-family: monospace; line-height: 1;"><small>{{ post.date | date: "%Y-%m-%d"}}&nbsp;</small></td></tr><tr><td><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></td></tr>
+        <small>{{ post.date | date: "%Y-%m-%d"}}&nbsp;</small> <br> <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a> <br><br>
       {% endfor %}
     </table>
   </div>
