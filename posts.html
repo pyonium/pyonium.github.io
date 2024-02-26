@@ -11,7 +11,7 @@ title: Posts
     {% capture category_name %}{{ category | first }}{% endcapture %}
     <p></p>
 
-    <h3><small>{{ category_name }}</small></h3>
+    <h3 style="line-height: 1.3;">{{ category_name }}</h3>
     {% for post in site.categories[category_name] %}
       <div style="line-height: 1; margin: 10px 0;">
         <small>{{ post.date | date: "%Y-%m-%d"}}&nbsp;</small> <br> 
