@@ -14,3 +14,4 @@ A couple of fun facts: All of my work are powered by my plushies, which are ever
 ### Also, check out:
 
 - [pyonium.github.io](https://github.com/pyonium/pyonium.github.io) - The source code for this site!
+- [ju.niper.me](https://ju.niper.me/) - A funny recursive link to this page!
