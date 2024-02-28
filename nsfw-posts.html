@@ -1,0 +1,24 @@
+---
+layout: default
+permalink: /posts/
+title: Posts
+---
+
+
+<div id="archives">
+{% for category in site.categories %}
+  {% capture category_name %}{{ category | first }}{% endcapture %}
+    {% if category_name == "nsfw" %}  
+      <div class="article-list">
+        <p></p>
+        <h3 style="line-height: 1.3;">{{ category_name }}</h3>
+        {% for post in site.categories[category_name] %}
+          <div style="line-height: 1; margin: 10px 0;">
+            <small>{{ post.date | date: "%Y-%m-%d"}}&nbsp;</small> <br> 
+            <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+{% endfor %}
+</div>
