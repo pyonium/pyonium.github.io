@@ -3,7 +3,7 @@ layout: post
 title: my name(s)
 category: weblog
 ---
-(An unintended yet big inspiration for this post has been the blog post [How to give yourself a name](https://youtu.be/eoq2e4h_avs) by MallBat. Please give her a watch! Also goes to show how universal some of these experiences are.)
+_(An unintended yet big inspiration for this post has been the blog post [How to give yourself a name](https://youtu.be/eoq2e4h_avs) by MallBat. Please give her a watch! Also goes to show how universal some of these experiences are.)_
 
 Hi! A lot of the times I'm not the kind of gal that would write weblogs, but it's cute to keep it as some sort of diary, I suppose. See this one as an introduction, and a cool story about my name, and how it intertwines with my identity.
 
